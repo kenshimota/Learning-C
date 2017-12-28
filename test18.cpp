@@ -2,6 +2,8 @@
 
 using namespace std;
 
+/* funcion que se encargara de obtener el numero y verificar que el usuario introduzca un numero en el input y no otro 
+caracter */
 int get_num(){
 	
 	while(true){
@@ -30,7 +32,11 @@ int main(){
 	}
 
 	cout << "los valores ingresados fueron -> ";
+/* este ciclo es un foeacrh que te permite pasar los valores de un array a otro elemento en  cuanto lo necesitas para 
+el manejo de sus valores en determinadas soluciones*/
 	for (int n : numbers)
 			cout << n << " - ";
-	system("pause");
+	delete *numbers;
+        system("pause");
+
 }
