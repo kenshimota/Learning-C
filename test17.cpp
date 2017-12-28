@@ -22,7 +22,7 @@ int main()
 	for (int i = 0; i < 6; ++i)
 	{
 		cout << "This is value position " << i << " of pointer: (" << *pointer << ")" << endl;
-		*pointer++;
+		(*pointer)++;
 	}
 
 	/* nota: jamas debes poner (*puntero)++ porque  solo imcrementaria el valor de la posicion 0 del array 
