@@ -36,7 +36,7 @@ int main(){
 el manejo de sus valores en determinadas soluciones*/
 	for (int n : numbers)
 			cout << n << " - ";
-	delete *numbers;
+	delete[] numbers;
         system("pause");
 
 }
