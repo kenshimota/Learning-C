@@ -3,9 +3,8 @@
 using namespace std;
 
 /* Esto definira la longitud maxima del los nombres */
-#ifndef
-	LENGHT_MAX_NAME 30+1; 
-#endif
+#define LENGHT_MAX_NAME 30+1; 
+
 
 /* Numero de datos actuales en el programa */
 int num_data = 0;
